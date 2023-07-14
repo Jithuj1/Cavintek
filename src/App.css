@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+.FormMainClass{
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.FormClass{
+  width: 70%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Form{
+  width: 650%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(129, 129, 185);
+}
+.firstSection{
+  height: 100%;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.CheckBox{
+  display: flex;
+  font-size: 18px;
+}
